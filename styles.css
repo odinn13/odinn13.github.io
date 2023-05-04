@@ -417,6 +417,10 @@ a:hover {
     font-size: 14px; /* Adjust the font size */
     color: #aaa; /* Adjust the text color */
     text-align: center; /* Align the text to the center */
+    background-color: var(--header-color);;
+    position:relative; 
+    padding-top: 20px;
+    top:-40px;
 }
 
 .video-container {
@@ -424,6 +428,10 @@ a:hover {
     justify-content: center;
     align-items: center;
   }
+
+/* #light-slider{
+    height: 600px !important;
+} */
 
 @media screen and (max-width: 800px) {
     nav ul {
@@ -459,6 +467,14 @@ a:hover {
     nav ul.active {
         display: flex;
     }
+
+    .lSSlideWrapper .lslide img {
+        max-height: 550px;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 5px;
+    }    
 }
 @media screen and (min-width: 1000px) {
     header {

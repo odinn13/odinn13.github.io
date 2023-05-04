@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta property="og:title" content="Project Details" />
+    <meta name="description" content="Project details for a selected project from Óðinn Hjaltason Schiöth's game developer portfolio.">
+    <meta property="og:url" content="https://odinn13.github.io/project-details" />
+    <meta name="author" content="Óðinn Hjaltason Schiöth">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- <script src="scripts.js" defer></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+    <title>Odinn - Project Details</title>
+</head>
+
+<body>
+    <header>
+        <div><a href="./"><h1 id="name">Óðinn Hjaltason Schiöth</h1></a></div>
+        <nav>
+            <button id="menu-toggle" class="menu-toggle" onclick="toggleMenu()">&#9776;</button>
+            <ul id="nav-menu" class="nav-menu">
+                <li><a href="./#about">About</a></li>
+                <li><a href="./#personal-projects">Personal Projects</a></li>
+                <li><a href="./#school-projects">School Projects</a></li>
+                <li><a href="./#courses">Related Courses</a></li>
+                <li><a href="./#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <main>
+            <section  id="project-details">
+                <h2 class="section-name">Rougelite Tactics Game</h2>
+                <div class="align-with-projects">
+                    <div class="projectx-top-container">
+                        <div class="projectx-bullets">
+                            <h3>Status:</h3>
+                            <p>Ongoing</p>
+                            <h3>Duration:</h3>
+                            <p>5+ months</p>
+                            <h3>Technologies:</h3>
+                            <p>Godot, GDScript, Krita</p>
+                            <h3>Team Size:</h3>
+                            <p>1</p> 
+                        </div>
+                        <img src="imgs/game/gameplay.png" class="projectx-image" alt="Project Image">
+                    </div>
+                </div>
+                <div class="align-with-projects">
+                    <p class="project-overview">This game is a tactical turn-based game developed independently using the Godot game engine. Set in a semi-realistic fantasy world, the story unfolds on a distant island where a mysterious curse has been unleashed. With high-class society gone, chaos reigns as the curse devastates the environment, corrupts inhabitants, and grants demonic powers to afflicted beings.</p>
+                    <p class="project-overview">Player will control a team of heroes determined to end the curse by finding its source and destroying it. Along the way, recruit powerful allies, make difficult sacrifices, and engage with quirky, mad characters in a dark yet humorous setting reminiscent of Undertale.</p>
+
+                    <p><b>Gameplay Mechanics:</b></p>
+                    <p class="project-overview">Players will engage in strategic battles on a small tactical map, controlling a team of unique units, each possessing a variety of abilities. As units progress, they can unlock new classes and gain additional abilities to enhance their combat prowess. The game provides players with insight into enemy actions before they occur, creating a challenging and engaging puzzle-like experience.</p>
+                    <p class="project-overview">Beyond the battles, players traverse a dynamic map brimming with varied events, taking cues from games such as Inscryption and Slay the Spire. These events present opportunities for players to enhance their team, requiring critical decision-making to fortify their heroes and guarantee victory in their mission to eradicate the curse afflicting the abandoned island.</p>
+                    
+                    <p><b>Features:</b></p>
+                    <ul class="projectx-highlights">
+                        <li>Engaging turn-based combat with unique puzzle-like mechanics</li>
+                        <li>Semi-realistic fantasy setting featuring European mythical creatures</li>
+                        <li>Dynamic map exploration with diverse events and strategic decision-making</li>
+                        <li>Customizable units with unlockable classes and abilities for varied gameplay experiences</li>
+                        <li>Optimised AI systems</li>
+                    </ul>
+                </div>
+                <h2 class="section-name">Image Gallery</h2>
+                <div class="align-with-projects">
+                    <div class="projectx-top-container" style="padding: 20px;">
+                        <ul id="light-slider">
+                            <li data-thumb="imgs/game/skill_tree.png">
+                                <img src="imgs/game/skill_tree.png" alt="Skill Tree">
+                                <p class="image-description">A prototype showcasing the class tree for character progression within the game.</p>
+                            </li>
+                            <li data-thumb="imgs/game/45.png">
+                                <img src="imgs/game/45.png" alt="Griffin">
+                                <p class="image-description">A work-in-progress example of the artwork that I am personally creating for the game.</p>
+                            </li>
+                            <li data-thumb="imgs/game/map.png">
+                                <img src="imgs/game/map.png" alt="World Map">
+                                <p class="image-description">A prototype of the player's world map, where the goal is to advance towards the curse's source point.</p>
+                            </li>
+                            <li data-thumb="imgs/blank.png">
+                                <img src="imgs/blank.png" alt="Gallery Image 3">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h2 class="section-name">Related Projects</h2>
+                <div class="projects-container">
+                    <div class="project-container">
+                        <a href="phobia-based-vr-horror-game.html"> 
+                            <div class="project">
+                                <div class="img-wrapper">
+                                    <img src="imgs/vr/phone.PNG" alt="Project 2">
+                                </div>
+                                <div class="overlay">
+                                    <h3>Phobia Based VR Horror Game</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="project-container">
+                        <a href="hellevator.html"> 
+                            <div class="project">
+                                <div class="img-wrapper">
+                                    <img src="imgs/hellevator/gameplay.png" alt="Project 2">
+                                </div>
+                                <div class="overlay">
+                                    <h3>Hellevator</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+        <footer>
+            <p>&copy; Óðinn Hjaltason Schiöth. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $("#light-slider").lightSlider({
+                gallery: true,
+                item: 1,
+                loop: true,
+                slideMargin: 0,
+                thumbItem: 4
+            });
+        });
+    </script>
+</body>
+
+</html>
