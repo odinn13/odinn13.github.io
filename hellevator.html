@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta property="og:title" content="Project Details" />
+    <meta name="description" content="Project details for a selected project from Óðinn Hjaltason Schiöth's game developer portfolio.">
+    <meta property="og:url" content="https://odinn13.github.io/project-details" />
+    <meta name="author" content="Óðinn Hjaltason Schiöth">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- <script src="scripts.js" defer></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+    <title>Project Details</title>
+</head>
+
+<body>
+    <header>
+        <div><a href="index.html"><h1 id="name">Óðinn Hjaltason Schiöth</h1></a></div>
+        <nav>
+            <button id="menu-toggle" class="menu-toggle" onclick="toggleMenu()">&#9776;</button>
+            <ul id="nav-menu" class="nav-menu">
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#personal-projects">Personal Projects</a></li>
+                <li><a href="index.html#school-projects">School Projects</a></li>
+                <li><a href="index.html#courses">Related Courses</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <main>
+            <section  id="project-details">
+                <h2 class="section-name">Hellevator</h2>
+                <div class="align-with-projects">
+                    <div class="projectx-top-container">
+                        <div class="projectx-bullets">
+                            <h3>Grade:</h3>
+                            <p>9.0</p>
+                            <h3>Study Period:</h3>
+                            <p>Third-semester project in BSc</p>
+                            <h3>Duration:</h3>
+                            <p>21 days</p>
+                            <h3>Technologies:</h3>
+                            <p>Unity, C#, Blender, Krita, Mixamo </p>
+                            <h3>Team Size:</h3>
+                            <p>4</p> 
+                        </div>
+                        <img src="imgs/hellevator/gameplay.png" class="projectx-image" alt="Project Image">
+                    </div>
+                </div>
+                <div class="align-with-projects">
+                    <h3 style="text-align: center;"><a href="https://hellafun-studio.itch.io/hellevator" style="color: crimson;">Try the game on Itch.io</a></h3>
+
+                    <p class="project-overview">Hellevator is a top-down rogue-like game with a comedic twist, marking our first-ever game development project. Players assume the role of Jesus Christ on a mission to save his friend Greg, who has been unfairly dragged to hell by Satan. Throughout the game, players must navigate increasingly challenging floors swarming with various demonic enemies while utilising a sword, shuriken, and holy dash ability to survive. As players progress, they can level up and purchase upgrades using the souls of defeated enemies.</p>
+                    <p><b>My Contributions:</b></p>
+                    <ul class="projectx-highlights">
+                        <li>Developed ranged mechanics for player, turret, and ranged enemy</li>
+                        <li>Implemented AI for enemies, including predictive movement and collision avoidance</li>
+                        <li>Designed visual elements, including ranged enemy models, textures, and effects</li>
+                        <li>Programmed health and dash systems</li>
+                        <li>Added falling debris mechanic</li>
+                        <li>Created the starting scene</li>
+                        <li>Contributed to bug fixes and overall game polish</li>
+                    </ul>
+                    <p><b>Lessons Learned:</b></p>
+                    <ul class="projectx-highlights">
+                        <li>The value of learning from others' experiences and failures in game development</li>
+                        <li>Playtest early and playtest a lot</li>
+                        <li>Importance of a code freeze day for final polishing and game balancing</li>
+                        <li>Recognising that tasks can take significantly longer than anticipated</li>
+                        <li>Ensuring game balancing is tuned for players, not just developers</li>
+                    </ul>
+                </div>
+                
+                <h2 class="section-name">Teacher Feedback</h2>
+                <div class="align-with-projects">
+                    <p>Excellent work! Your steady work and great attitude resulted in an interesting game with a very solid core gameplay loop.
+                        You are missing a bit out on achievable objectives. I understand you wanted to make a challenging game but in the context of displaying it on Demo Day it would have been appropriate to balance the curve out a bit more. It's a bit unclear still when and how Jesus takes damage. Having health only being regenerated in shops meant that the cool upgrades were behind an unachievable paywall. Shorter levels, the store showing up more often and souls being more plentiful would have fixed most things. There's no good reason to not let people get your upgrades, especially in a context like demo day.
+                        The game felt good to play and your context and theme really helped out the gameplay in a cohesive way. Congrats!</p>
+                </div>
+
+                <h2 class="section-name">Gameplay Demo</h2>
+                <div class="align-with-projects">
+                    <div class="video-container">
+                        <iframe width="854" height="480" src="https://www.youtube.com/embed/6ESw5RgGT8E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen sandbox="allow-scripts allow-same-origin"></iframe>
+
+                    </div>
+                </div>
+
+                
+                <h2 class="section-name">Image Gallery</h2>
+                <div class="align-with-projects">
+                    <div class="projectx-top-container" style="padding: 20px;">
+                        <ul id="light-slider">
+                            <li data-thumb="imgs/hellevator/upgrades.png">
+                                <img src="imgs/hellevator/upgrades.png" alt="Spider cave">
+                                <p class="image-description">A shop on select floors allows players to upgrade their character using collected souls.</p>
+                            </li>
+                            <li data-thumb="imgs/hellevator/image15.gif">
+                                <img src="imgs/hellevator/image15.gif" alt="deflect">
+                                <p class="image-description">Demonstrating the deflection mechanic: Without the upgrade, the sword would simply destroy the projectile; however, with the upgrade, the projectile is redirected towards the mouse pointer.</p>
+                            </li>
+                            <li data-thumb="imgs/hellevator/image20.gif">
+                                <img src="imgs/hellevator/image20.gif" alt="Gallery Image 2">
+                                <p class="image-description">Showcasing falling debris: Debris can inflict damage on both the player and enemies when it lands on them.</p>
+                            </li>
+                            <li data-thumb="imgs/hellevator/lifts.png">
+                                <img src="imgs/hellevator/lifts.png" alt="Gallery Image 3">
+                                <p class="image-description">A sample of quick artwork created during the project.</p>
+                            </li>
+                            <li data-thumb="imgs/hellevator/skeli.png">
+                                <img src="imgs/hellevator/skeli.png" alt="Gallery Image 3">
+                                <p class="image-description">An enemy unit developed by rearranging a skeleton asset and painting the texture.</p>
+                            </li>
+                            <li data-thumb="imgs/hellevator/range_unit.png">
+                                <img src="imgs/hellevator/range_unit.png" alt="Gallery Image 3">
+                                <p class="image-description">A 3D model of a unit designed in Blender, with animations implemented using Mixamo.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h2 class="section-name">Related Projects</h2>
+                <div class="projects-container">
+                    <div class="project-container">
+                        <a href="phobia-based-vr-horror-game.html"> 
+                            <div class="project">
+                                <div class="img-wrapper">
+                                    <img src="imgs/vr/phone.PNG" alt="Project 2">
+                                </div>
+                                <div class="overlay">
+                                    <h3>Phobia Based VR Horror Game</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="project-container">
+                        <a> 
+                            <div class="project">
+                                <div class="img-wrapper">
+                                    <img src="imgs/prog2.PNG" alt="Project 1">
+                                </div>
+                                <div class="overlay">
+                                    <h3>The Battle for Midjord</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+        <footer>
+            <p>&copy; Óðinn Hjaltason Schiöth. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $("#light-slider").lightSlider({
+                gallery: true,
+                item: 1,
+                loop: true,
+                slideMargin: 0,
+                thumbItem: 4
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta property="og:title" content="Project Details" />
+    <meta name="description" content="Project details for a selected project from Óðinn Hjaltason Schiöth's game developer portfolio.">
+    <meta property="og:url" content="https://odinn13.github.io/project-details" />
+    <meta name="author" content="Óðinn Hjaltason Schiöth">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- <script src="scripts.js" defer></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+    <title>Project Details</title>
+</head>
+
+<body>
+    <header>
+        <div><a href="index.html"><h1 id="name">Óðinn Hjaltason Schiöth</h1></a></div>
+        <nav>
+            <button id="menu-toggle" class="menu-toggle" onclick="toggleMenu()">&#9776;</button>
+            <ul id="nav-menu" class="nav-menu">
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#personal-projects">Personal Projects</a></li>
+                <li><a href="index.html#school-projects">School Projects</a></li>
+                <li><a href="index.html#courses">Related Courses</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <main>
+            <section  id="project-details">
+                <h2 class="section-name">Phobia Based VR Horror Game</h2>
+                <div class="align-with-projects">
+                    <div class="projectx-top-container">
+                        <div class="projectx-bullets">
+                            <h3>Grade:</h3>
+                            <p>10.0</p>
+                            <h3>Study Period:</h3>
+                            <p>first-semester project in MSc</p>
+                            <h3>Duration:</h3>
+                            <p>7 days</p>
+                            <h3>Technologies:</h3>
+                            <p>VR, Unity, Unity timelines, C#, Blender</p>
+                            <h3>Team Size:</h3>
+                            <p>1</p> 
+                        </div>
+                        <img src="imgs/vr/phone.PNG" class="projectx-image" alt="Project Image">
+                    </div>
+                </div>
+                <div class="align-with-projects">
+                    <p class="project-overview">This game is an immersive VR horror experience that pushes the boundaries of fear by targeting common phobias without relying on jumpscares or deadly situations. Set in a dark, flooded cave system, players face a series of uncomfortable and terrifying scenarios designed to trigger deep-seated anxieties. To ensure maximum potential, I have drawn inspiration from the developer commentary of <b>Half-Life: Alyx,</b> which helped significantly in designing the game.</p>
+                    <p class="project-overview">VR technology, with its 3D vision capabilities, offers distinctive opportunities for incorporating horror elements, such as the sensations of height, confined spaces, and the unnerving feeling of bugs crawling on the player's face. The game features 15 carefully crafted sections, each aiming to evoke a specific emotional response, resulting in a heart-pounding journey through the depths of players' fears.</p>
+                    <p class="project-overview"><b>The first part</b> is tailored to trigger claustrophobic individuals by forcing them to navigate through a flooded, narrow cave system with water levels gradually rising. <b>The second part</b> focuses on the fear of heights, where players must walk along a narrow cliff edge while encountering enormous spiders. <b>The third part</b> follows a bug theme, requiring the player to crawl through cobwebs with spiders and ultimately experiencing a spider crawling on their face. Afterward, a simple relief area is provided as the experience comes to an end.</p>
+                </div>
+                <h2 class="section-name">Teacher Feedback</h2>
+                <div class="align-with-projects">
+                    <p><b>Strengths:</b> That was a bloody incredible experience! Everything from the concept, to design, to 
+                        implementation, is absolutely solid. This is created as a multi-sensory experience that uses every trick 
+                        in the book to plant a living and breathing world inside the users' mind, causing a deep instinctual 
+                        response. What is perhaps the most impressive here is how convincingly all the different elements tie 
+                        together to strengthen the illusion, including super subtle details like the handheld phone, wet 
+                        surfaces, crawling insects, dripping water effects and distant sounds. The sound should be mentioned 
+                        here as a particular achievement on its own, the mix of sounds is perfect and the effects such as 
+                        localization and reverb makes it all so believable. This must have taken a lot of effort to put together, 
+                        and a lot of iteration and refinement. Congratulations, what an achievement!</p>
+                    <p><b>Weaknesses:</b> Seriously hard to pick on anything here. I kind of wished the experience could have lasted longer and that 
+                        I could have done more in that last cave, but given the time constraints, you have already delivered 
+                        something more refined than was expected.</p>
+                </div>
+                <h2 class="section-name">Image Gallery</h2>
+                <div class="align-with-projects">
+                    <div class="projectx-top-container" style="padding: 20px;">
+                        <ul id="light-slider">
+                            <li data-thumb="imgs/vr/image2.png">
+                                <img src="imgs/vr/image2.png" alt="Spider cave">
+                                <p class="image-description">An image depicting the player navigating through dense cobwebs in order to progress, as their phone is out of battery and they have no flashlight. They are forced to move towards the light, while spiders scurry within the cobwebs, foreshadowing the upcoming events.</p>
+                            </li>
+                            <li data-thumb="imgs/vr/spider2.png">
+                                <img src="imgs/vr/spider2.png" alt="Spider">
+                                <p class="image-description">An image capturing a spider crawling on the player's head, an uncomfortable scene even for me who isn't afraid of spiders and has playtested the game multiple times.</p>
+                            </li>
+                            <li data-thumb="imgs/vr/end.png">
+                                <img src="imgs/vr/end.png" alt="End area">
+                                <p class="image-description">An image of the end area, where the player can take a break and catch their breath.</p>
+                            </li>
+                            <li data-thumb="imgs/vr/height_bat.PNG">
+                                <img src="imgs/vr/height_bat.PNG" alt="Gallery Image 2">
+                                <p class="image-description">A cliff section image featuring bats flying around, adding to the atmosphere.</p>
+                            </li>
+                            <li data-thumb="imgs/vr/image11.png">
+                                <img src="imgs/vr/image11.png" alt="Gallery Image 3">
+                                <p class="image-description">A side-by-side comparison showcasing the game's appearance on a monitor (left) versus the VR experience (right) when the player's eyes have adjusted to the darkness. This contrast presented some development challenges.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h2 class="section-name">Related Projects</h2>
+                <div class="projects-container">
+                    <div class="project-container">
+                        <a href="hellevator.html"> 
+                            <div class="project">
+                                <div class="img-wrapper">
+                                    <img src="imgs/hellevator/gameplay.png" alt="Project 2">
+                                </div>
+                                <div class="overlay">
+                                    <h3>Hellevator</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="project-container">
+                        <a> 
+                            <div class="project">
+                                <div class="img-wrapper">
+                                    <img src="imgs/prog2.PNG" alt="Project 1">
+                                </div>
+                                <div class="overlay">
+                                    <h3>The Battle for Midjord</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+        <footer>
+            <p>&copy; Óðinn Hjaltason Schiöth. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $("#light-slider").lightSlider({
+                gallery: true,
+                item: 1,
+                loop: true,
+                slideMargin: 0,
+                thumbItem: 4
+            });
+        });
+    </script>
+</body>
+
+</html>

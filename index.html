@@ -15,9 +15,11 @@
 
 <body>
     <header>
-        <a href="index.html"><div><h1>Óðinn Hjaltason Schiöth</h1></a></div>
+        
+        <div><a href="index.html"><h1 id="name">Óðinn Hjaltason Schiöth</h1></a></div>
         <nav>
-            <ul>
+            <button id="menu-toggle" class="menu-toggle" onclick="toggleMenu()">&#9776;</button>
+            <ul id="nav-menu" class="nav-menu">
                 <li><a href="#about">About</a></li>
                 <li><a href="#personal-projects">Personal Projects</a></li>
                 <li><a href="#school-projects">School Projects</a></li>
@@ -97,16 +99,17 @@
                 <h2 class="section-name">School Projects</h2>
                 <div class="projects-container">
                     <div class="project-container">
-                        <a> 
+                        <a href="phobia-based-vr-horror-game.html"> 
                             <div class="project">
                                 <div class="img-wrapper">
-                                    <img src="imgs/phone.PNG" alt="Project 1">
+                                    <img src="imgs/vr/phone.PNG" alt="Project 1">
                                 </div>
                                 <div class="overlay">
-                                    <h3>VR Phobia Based Horror</h3>
+                                    <h3>Phobia Based VR Horror Game</h3>
                                 </div>
                             </div>
                         </a>
+                        <p class="project-img-help">Click on the image for further details</p>
                         <p class="project-description">Immersive VR horror game where fear is intensified by targeting phobias without relying on jumpscares or deadly situations. Players face uncomfortable scenarios, such as walking near cliff edges among enormous spiders.</p>
                         <ul class="project-highlights">
                             <p><b>Highlights:</b></p>
@@ -121,16 +124,17 @@
                     </div>
                     
                     <div class="project-container">
-                        <a> 
+                        <a href="hellevator.html"> 
                             <div class="project">
                                 <div class="img-wrapper">
-                                    <img src="imgs/hellevator.png" alt="Project 2">
+                                    <img src="imgs/hellevator/gameplay.png" alt="Project 2">
                                 </div>
                                 <div class="overlay">
                                     <h3>Hellevator</h3>
                                 </div>
                             </div>
                         </a>
+                        <p class="project-img-help">Click on the image for further details</p>
                         <p class="project-description">A 3-week full-time group project where we created a 3D top-down action game. The game features Jesus Christ descending to hell via an elevator to rescue his friend Greg.</p>
                         <ul class="project-highlights">
                             <p><b>My contributions included:</b></p>

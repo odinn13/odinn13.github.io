@@ -21,3 +21,18 @@ document.getElementById("lightbox").addEventListener("click", function(event) {
         closeLightbox();
     }
 });
+
+function toggleMenu() {
+    var navMenu = document.getElementById("nav-menu");
+    navMenu.classList.toggle("active");
+}
+
+// Add event listeners for the nav menu links
+document.querySelectorAll("#nav-menu a").forEach(function(link) {
+    link.addEventListener("click", function() {
+        var navMenu = document.getElementById("nav-menu");
+        navMenu.classList.remove("active");
+    });
+});
+
+
